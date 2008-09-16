@@ -1,0 +1,80 @@
+! Gr!SHk@`s XTerm config
+!*font: -*-terminus-medium-*-*-*-14-*-*-*-*-*-iso10646-*
+XTerm*background: black
+XTerm*foreground: orange
+XTerm*colorAttrMode: on
+XTerm*eightBitInput: true
+XTerm*metaSendsEscape: true
+XTerm*geometry: 50x25
+ 
+! URXVT Colors
+URxvt*background: gray25
+URxvt*foreground: gray90
+!Black text
+URxvt*color0: gray10
+URxvt*color8: gray15
+!Red text
+URxvt*color1: red
+URxvt*color9: red2
+!Green text
+URxvt*color2: green
+URxvt*color10: green2
+!Yellow text
+URxvt*color3: yellow
+URxvt*color11: yellow1
+!Blue text
+URxvt*color4: royal blue
+URxvt*color12: dodger blue
+!Magenta text
+URxvt*color5: magenta2
+URxvt*color13: magenta
+!Cyan text
+URxvt*color6: cyan2
+URxvt*color14: cyan3
+!White
+URxvt*color7: white
+URxvt*color15: gray70
+ 
+!URxvt*termName: xterm-color
+URxvt*fading: 30
+URxvt*faseColor: black
+URxvt*name: Terminal
+URxvt*title: Terminal
+! URxvt setings
+!URxvt.geometry: 80x30
+URxvt.geometry: 80x40
+URxvt.scrollBar: false
+URxvt.xftAntialias: true
+URxvt.font: xft:DejaVu Sans Mono:style=Regular:pixelsize=14
+ 
+! URxvt.perl-ext:mark-urls,default
+URxvt.tabbed.tabbar-fg: 2
+URxvt.tabbed.tabbar-bg: 4
+URxvt.tabbed.tab-fg: 0
+URxvt.tabbed.tab-bg: 4
+Urxvt.inheritPixmap: false
+URxvt.transparen: true
+URxvt.tintColor:white
+URxvt.shading: 30
+! URxvt.urlLauncher: /usr/bin/firefox
+URxvt.jumpScroll: True
+URxvt.scrollstyle: plain
+URxvt.loginShell: False
+URxvt.scrollBar_floating: False
+URxvt.scrollTtyOutput: False
+URxvt.scrollTtyKeypress: True
+URxvt.scrollWithBuffer: True
+URxvt.saveLines: 5000
+URxvt.internalBorder: 0
+URxvt.externalBorder: 0
+URxvt.cursorBlink: True
+URxvt.visualBell: False
+!URxvt*imLocale: en_US.UTF-8
+
+Xft.dpi:108
+Xft.antialias: 1
+Xft.hinting: 1
+Xft.hintstyle: hintfull
+Xft.rgba: rgb
+
+Emacs.FontBackend: xft
