@@ -45,8 +45,9 @@ URxvt*title: Terminal
 URxvt.geometry: 80x40
 URxvt.scrollBar: false
 URxvt.xftAntialias: true
-URxvt.font: xft:DejaVu Sans Mono:style=Regular:pixelsize=14
- 
+!!URxvt.font: xft:DejaVu Sans Mono:style=Regular:pixelsize=14
+!!URxvt.font:xft:DejaVu Sans Mono:size=10:antialias=true,xft:Microsoft YaHei:size=10:antialias=true
+URxvt.font:xft:Monaco:size=10:antialias=true,xft:Microsoft YaHei:size=10:antialias=true
 ! URxvt.perl-ext:mark-urls,default
 URxvt.tabbed.tabbar-fg: 2
 URxvt.tabbed.tabbar-bg: 4
